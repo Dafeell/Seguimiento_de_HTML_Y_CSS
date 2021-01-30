@@ -1,0 +1,228 @@
+body {
+  background-color: rgb(231, 185, 231);
+}
+#header-principal {
+  height: 120px;
+  background-color: rgb(248, 203, 248);
+  display: flex;
+  flex-direction: row;
+}
+
+#titulos-principales {
+  color: black;
+  padding-left: 1%;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#principal {
+  height: auto;
+  flex: 0 1 70%;
+  margin: 1%;
+  margin-left: 8%;
+}
+
+#secundario {
+  background-color: rgb(248, 203, 248);
+  height: auto;
+  flex: 0 1 25%;
+  margin: 1%;
+}
+
+nav {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  padding-right: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin: 2%;
+}
+
+main article {
+  padding: 1%;
+}
+
+section {
+  margin: 5%;
+  margin-bottom: 10%;
+}
+article h2 {
+  color: purple;
+  font-size: 200%;
+}
+li {
+  font-size: 120%;
+  list-style-type: none;
+  padding-left: 2%;
+}
+
+.li-comida:hover {
+  list-style-type: "\1F958  ";
+}
+
+#vzla:hover {
+  list-style-type: "\1F372  ";
+}
+#pasta:hover {
+  list-style-type: "\1F35D  ";
+}
+#sushi:hover {
+  list-style-type: "\1F363  ";
+}
+
+.li-libro:hover {
+  list-style-type: "\1F4D6  ";
+}
+
+.libro:hover {
+  list-style-type: "\1F4DA  ";
+}
+
+.li-animales:hover {
+  list-style-type: "\1F43E  ";
+}
+
+.gatos:hover {
+  list-style-type: "\1F63A  ";
+}
+table {
+  text-align: center;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: rgb(192, 137, 137);
+}
+
+.oscuro {
+  background-color: gray;
+  color: white;
+  font-weight: 600;
+}
+
+aside h2 {
+  color: purple;
+  padding: 3%;
+}
+
+aside > img {
+  border-radius: 100%;
+  position: relative;
+  top: 20px;
+  left: 60px;
+  height: 250px;
+  width: 150px;
+}
+
+#icon-rrss > img {
+  margin-left: 10%;
+  margin-bottom: 10%;
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  height: 20px;
+  display: block;
+  flex: 0 0 100%;
+  text-align: center;
+  padding: 2%;
+}
+
+footer > a {
+  color: white;
+  padding-top: 2%;
+}
+
+footer > a:visited {
+  color: gray;
+}
+
+/* /////////////////////////////////// */
+
+.cont_ppal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+form h2 {
+  position: relative;
+  left: 15px;
+  text-align: center;
+  top: 10px;
+}
+
+input {
+  width: 150%;
+  max-width: 600px;
+  background-color: rgb(231, 185, 231);
+  border: 0px;
+  border-bottom: 1px solid purple;
+  color: black;
+  margin: 8px 25px;
+  text-align: left;
+}
+
+input:focus {
+  outline: 0;
+}
+input[data-required="required"]:focus {
+  border-bottom: 1px solid red;
+}
+
+input[type="submit"] {
+  background-color: rgb(206, 138, 206);
+  border: 2px solid purple;
+  border-radius: 8%;
+  box-shadow: 0px 3px 8px 0px purple;
+  left: 42%;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  width: 55px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(206, 138, 206);
+  border: 2px solid rgb(128, 0, 128);
+  border-radius: 8%;
+  box-shadow: 0px 1px 8px 0px purple;
+  position: relative;
+  top: 2px;
+  width: 55px;
+}
+
+.activo,
+#date,
+#time,
+#datetime,
+#month,
+#week,
+#color {
+  color: gray;
+}
+
+legend[data-legend] {
+  margin-left: 4%;
+  color: gray;
+}
+
+textarea {
+  background-color: rgb(231, 185, 231);
+  /* border: 2px solid purple; */
+  margin-left: 3%;
+}
+
+fieldset {
+  border: 1px solid purple;
+  max-width: 650px;
+}
